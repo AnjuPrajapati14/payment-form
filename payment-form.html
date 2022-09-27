@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body> 
+    <div class="head">
+        <h1>Payment Form</h1>
+        
+    </div>
+    <h2>Personal Details</h2>
+    <h5>Fill The Form </h5>
+    <div class="details"> 
+        <div class="dets">
+    <form action="form"> 
+        First Name: <input type="text" name="Name" placeholder="Name"> 
+        <br> <br>
+        Last Name:  <input type="text"> 
+        <br> <br>
+ <fieldset>
+    <legend>Gender:</legend>
+     Male <input type="radio" name="gender">
+        Female  <input type="radio" name="gender">
+        Others <input type="radio" name="gender"> </fieldset>
+<br> <br>
+<fieldset>
+
+ <legend>Address:</legend>
+ <textarea name="address" id="" cols="30" rows="10" placeholder="enter your addresss"> </textarea> <br>
+        <!-- <input type="checkbox"> --> Select Your City:
+<select name="place"   id="iplace">
+<option value="delhi">Delhi</option>
+<option value="shimla">Shimla</option>
+<option value="jaipur">Jaipur</option>
+<option value="faridabad">Faridabad</option>
+</select> <br> <br>
+Select Your State
+<select name="state" id="">
+    <option value="haryana">Haryana</option>
+    <option value="punjab">Punjab</option>
+    <option value="madhya pradesh">Madhya Pradesh</option>
+    <option value="rajasthan">Rajasthan</option>
+    <option value="maharastra">Maharastra</option>
+</select>
+</fieldset>
+<br>
+<br>
+Email:  <input type="email"> 
+<br> <br>
+Pincode: <input type="number" name="pincode"> <br><br>
+
+
+<div class="pass">
+Create Password <input type="password" id="space"> </div>  <br> <br>
+<div class="pass">
+Confirm Password        <input type="password"> </div> </div>
+</div>
+
+
+
+<hr>
+
+<h2>Payment Information</h2> <br> <br> <br>
+
+
+ <div class="info">Fill the Information</div> <br> <br>
+card type:
+<select name="card_type" id="card_type">
+
+  <div class="card"> <option value="">select a card type</option> </div> 
+    <option value="visa">Visa</option>
+    <option value="Rupay">Rupay</option>
+    <option value="Mastercard">Mastercard</option>
+</select> <br> <br>
+Card number: <input type="number" name="card_number"> <br> <br>
+expiration date: <input type="date" name="exp_date"> <br> <br> 
+<div class="cvv">
+CVV: <input type="password" placeholder="enter cvv" class="cve" name="password"> </div> <br> <br>
+<button name="btn" id="btn">submit</button>
+
+    </form>
+ 
+
+    
+</body>
+</html>
